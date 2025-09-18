@@ -13,6 +13,13 @@
 .text-center{
     text-align: center;
 }
+.avatar {
+  width: 60px;         
+  height: 60px;
+  border-radius: 50%;  
+  object-fit: cover;   
+  border: 2px solid #ccc; 
+}
 /* body{
     width: 80%;
     margin: 0 auto;
@@ -209,6 +216,7 @@
     border-radius: 20px;
     padding: 4rem 8rem;
     position: relative;
+    margin-bottom: 2rem;
 }
 .claint-text-box img{
     position: absolute;
@@ -218,4 +226,12 @@
 .claint-text-box p{
     font-size: 1.2rem;
     color: gray;
+}
+.client-area {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.client{
+    align-items: center;
+    gap: 20px;
 }
