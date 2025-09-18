@@ -10,6 +10,9 @@
     display: flex;
     color: #503217;
 }
+.text-center{
+    text-align: center;
+}
 /* body{
     width: 80%;
     margin: 0 auto;
@@ -160,6 +163,37 @@
 
 /* this css about the latest health products section */
 .health-products{
-
+    background-color: #EEEDE7;
+    padding: 5% 10%;
 }
-.health-proudcts-cards{}
+.health-proudcts-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.health-proudcts-cards img{
+    margin: 0 auto;
+    width: 605;
+}
+.img-btn{
+    background-color: white;
+    width: 20rem;
+    height: 15rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.health-card{
+    position: relative;
+}
+.health-card .products-name{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.health-card .img-btn button{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
