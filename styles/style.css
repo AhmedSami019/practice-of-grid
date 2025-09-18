@@ -52,3 +52,45 @@
 .nav-img img{
     margin-right: 20px;
 }
+
+/* this css for the hero section */
+
+.banner{
+    align-items: center;
+    gap: 20%;
+    padding: 5% 10%;
+}
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+.banner-left h1{
+    font-size: 5rem;
+    line-height: 1.1;
+    font-weight: 500;
+}
+#banner-sub-text{
+    font-size: 1.2rem;
+}
+.shop-btn{
+    display: flex ;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    background-color: #503217;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.shop-btn img {
+  width: 20px;
+  height: 20px;
+}
+.shop-btn p {
+  margin: 0; /* removes default paragraph margin */
+}
+
