@@ -56,9 +56,7 @@
     background-color: #EEEDE7;
     padding: 20px 10%;
 }
-/* .nav-potion ul{
-    justify-content: space-between;
-} */
+
 .nav-potion li{
     list-style: none;
     margin-right: 30px;
@@ -70,6 +68,7 @@
 }
 .nav-img img{
     margin-right: 20px;
+    cursor: pointer;
 }
 
 /* this css for the hero section */
