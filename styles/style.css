@@ -197,3 +197,25 @@
     left: 20px;
     top: 20px;
 }
+
+/* this css about client section */
+.client-section{
+    padding: 5% 10%;
+    background-color: #EEEDE7;
+}
+.claint-text-box{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 4rem 8rem;
+    position: relative;
+}
+.claint-text-box img{
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+}
+.claint-text-box p{
+    font-size: 1.2rem;
+    color: gray;
+}
