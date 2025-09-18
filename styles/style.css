@@ -235,3 +235,40 @@
     align-items: center;
     gap: 20px;
 }
+
+
+/* this css for the footer  */
+footer{
+    padding: 5% 10%;
+    justify-content: space-between;
+}
+.foot-head{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.footer-mid-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.footer-mid{
+    align-items: center;
+    gap: 20px;
+}
+.footer-mid img{
+    width: 5rem;
+    height: 5rem;
+}
+.footer-mid h1{
+    font-size: 5rem;
+    font-weight: 600;
+}
+.footer-mid-iocn{
+    gap: 10px;
+}
+.address-contact div{
+    margin-bottom: 40px;
+}
