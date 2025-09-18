@@ -96,5 +96,27 @@
 }
 
 /* this css about the category */
-
+.category{
+    padding: 5% 10%;
+    text-align: center;
+    background-color: #EEEDE7;
+}
+.category-heading{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #503217;
+    margin-bottom: 3rem;
+}
+.category-section{
+    justify-content: space-between;
+}
+.cat-card{
+    border: 1px solid #64594b1a;
+    border-radius: 20px;
+    padding: 20px 50px;
+}
+.cat-card-head{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
 
