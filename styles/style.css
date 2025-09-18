@@ -59,6 +59,7 @@
     align-items: center;
     gap: 20%;
     padding: 5% 10%;
+    background-color: #E8E6DE;
 }
 .banner-left{
     display: flex;
@@ -93,4 +94,7 @@
 .shop-btn p {
   margin: 0; /* removes default paragraph margin */
 }
+
+/* this css about the category */
+
 
