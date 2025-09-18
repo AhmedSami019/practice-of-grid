@@ -30,6 +30,7 @@
 .logo{
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 .logo img{
     width: 45px;
@@ -135,7 +136,7 @@
     margin-top: 3rem;
 }
 .cat-big-card{
-    background-color: rgb(253, 253, 251);
+    background-color: #F2F2F2;
     padding: 2rem 4rem;
     align-items: center;
     gap: 3rem;
@@ -156,3 +157,9 @@
     border-bottom: 1px solid rgb(85, 84, 84);
     padding: 4px;
 }
+
+/* this css about the latest health products section */
+.health-products{
+
+}
+.health-proudcts-cards{}
